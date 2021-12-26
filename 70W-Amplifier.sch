@@ -455,10 +455,8 @@ F 3 "" H 6050 4650 50  0001 C CNN
 	1    6050 4650
 	1    0    0    -1  
 $EndComp
-Text GLabel 6150 4350 2    50   Input ~ 0
+Text GLabel 6050 4250 1    50   Input ~ 0
 BIAS
-Wire Wire Line
-	6150 4350 6050 4350
 Connection ~ 6050 4350
 $Comp
 L Transistor_FET:IRF540N Q2
@@ -733,4 +731,21 @@ Connection ~ 10000 4150
 Wire Wire Line
 	9300 4150 9150 4150
 Connection ~ 9150 4150
+Wire Wire Line
+	6050 4350 6050 4250
+$Comp
+L Xenir:Resistor R6
+U 1 1 61C90F87
+P 6400 4400
+F 0 "R6" V 6400 4246 28  0000 C CNN
+F 1 "Varies According to Band" H 6400 4303 28  0000 C CNN
+F 2 "" H 6400 4300 50  0001 C CNN
+F 3 "" H 6400 4300 50  0001 C CNN
+	1    6400 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 3950 6400 4200
+Wire Wire Line
+	6400 4950 6400 4600
 $EndSCHEMATC
