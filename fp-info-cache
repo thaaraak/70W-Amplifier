@@ -1,4 +1,4 @@
-17144810174418763
+17148091807804444
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75873,6 +75873,13 @@ Audio_Jack
 5
 5
 Xenir
+BN-43-202-Splitter-SMD
+
+
+0
+5
+5
+Xenir
 BN-43-202-Vertical
 
 
@@ -75963,6 +75970,13 @@ Electret
 0
 2
 2
+Xenir
+Ferrite-Tube-Splitter-SMD
+
+
+0
+5
+5
 Xenir
 Heatsink_Mounting_25mm
 

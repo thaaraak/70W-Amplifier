@@ -25,17 +25,6 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2N3906 Q1
-U 1 1 61C4A74A
-P 5300 1800
-F 0 "Q1" V 5628 1800 50  0000 C CNN
-F 1 "2N3906" V 5537 1800 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5500 1725 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF" H 5300 1800 50  0001 L CNN
-	1    5300 1800
-	0    1    -1   0   
-$EndComp
-$Comp
 L Xenir:Resistor R1
 U 1 1 61C4B77E
 P 4950 2150
@@ -382,17 +371,6 @@ Wire Wire Line
 Wire Wire Line
 	2400 4650 3150 4650
 $Comp
-L Xenir:T50_SPLITTER T1
-U 1 1 61CB8C2A
-P 5000 3750
-F 0 "T1" H 5000 3731 50  0000 C CNN
-F 1 "BN43-202 2T:1T" H 5000 3650 50  0000 C CNN
-F 2 "Xenir:BN-43-202-Vertical" H 5000 3750 50  0001 C CNN
-F 3 "" H 5000 3750 50  0001 C CNN
-	1    5000 3750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR07
 U 1 1 61CC3CE8
 P 4650 4150
@@ -404,7 +382,7 @@ F 3 "" H 4650 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5350 4350 5350 4550
+	5350 4350 5350 4450
 $Comp
 L Xenir:Resistor R3
 U 1 1 61CCDCF5
@@ -429,7 +407,6 @@ F 3 "" H 6050 4350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5350 4350 5700 4350
-Connection ~ 5350 4350
 Connection ~ 5700 4350
 Wire Wire Line
 	5700 4350 6050 4350
@@ -570,29 +547,14 @@ Wire Wire Line
 	6550 5700 6400 5700
 Wire Wire Line
 	6400 5500 6400 5700
-$Comp
-L Xenir:T50_SPLITTER T2
-U 1 1 61CE7B62
-P 8550 5150
-F 0 "T2" H 8250 4450 50  0000 C CNN
-F 1 "FERRITE TUBE 1T:3T" V 8350 4450 31  0000 C CNN
-F 2 "Xenir:BN-43-202-Vertical" H 8550 5150 50  0001 C CNN
-F 3 "" H 8550 5150 50  0001 C CNN
-	1    8550 5150
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6950 3300 8200 3300
-Wire Wire Line
-	8200 3300 8200 3950
 Connection ~ 6950 3300
-Wire Wire Line
-	8200 4950 8200 5700
 Wire Wire Line
 	8200 5700 6950 5700
 Connection ~ 6950 5700
 Wire Wire Line
-	8200 4350 8200 4550
+	8200 4350 8200 4450
 $Comp
 L Xenir:Capacitor C1
 U 1 1 61CECBAC
@@ -617,7 +579,6 @@ F 3 "" H 7850 4650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8200 4350 7850 4350
-Connection ~ 8200 4350
 $Comp
 L power:+12V #PWR015
 U 1 1 61CF3E8E
@@ -659,28 +620,6 @@ F 2 "" H 8900 4750 50  0001 C CNN
 F 3 "" H 8900 4750 50  0001 C CNN
 	1    8900 4750
 	1    0    0    -1  
-$EndComp
-$Comp
-L Xenir:PCB_SMA J3
-U 1 1 61D30F44
-P 9350 3750
-F 0 "J3" V 9310 3680 50  0000 L CNN
-F 1 "LPF_IN" V 9401 3680 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 9350 3750 50  0001 C CNN
-F 3 "" H 9350 3750 50  0001 C CNN
-	1    9350 3750
-	0    1    1    0   
-$EndComp
-$Comp
-L Xenir:PCB_SMA J4
-U 1 1 61D3410C
-P 10200 3750
-F 0 "J4" V 10160 3680 50  0000 L CNN
-F 1 "LPF_OUT" V 10251 3680 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 10200 3750 50  0001 C CNN
-F 3 "" H 10200 3750 50  0001 C CNN
-	1    10200 3750
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR019
@@ -748,4 +687,67 @@ Wire Wire Line
 	6400 3950 6400 4200
 Wire Wire Line
 	6400 4950 6400 4600
+$Comp
+L Xenir:Splitter_Center_Tap T1
+U 1 1 61CE4121
+P 5000 3850
+F 0 "T1" H 5000 2600 50  0000 C CNN
+F 1 "BN-43-202 1T:2T" V 5250 3250 50  0000 C CNN
+F 2 "Xenir:BN-43-202-Splitter-SMD" H 5000 3850 50  0001 C CNN
+F 3 "" H 5000 3850 50  0001 C CNN
+	1    5000 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3950 5350 4050
+Wire Wire Line
+	5350 4850 5350 4950
+$Comp
+L Xenir:2N3906-SMD Q1
+U 1 1 61CF1527
+P 5300 1800
+F 0 "Q1" H 5500 1875 50  0000 L CNN
+F 1 "2N3906-SMD" H 5500 1800 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5500 1725 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 5300 1800 50  0001 L CNN
+	1    5300 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Xenir:PCB_SMA_EDGE J3
+U 1 1 61CF5952
+P 9350 3750
+F 0 "J3" H 9400 3650 50  0000 C CNN
+F 1 "LPF_IN" H 9350 3750 50  0000 C CNN
+F 2 "Xenir:PCB-SMA-EDGE" H 9350 3750 50  0001 C CNN
+F 3 "" H 9350 3750 50  0001 C CNN
+	1    9350 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Xenir:PCB_SMA_EDGE J4
+U 1 1 61CF9C6B
+P 10200 3750
+F 0 "J4" H 10250 3650 50  0000 C CNN
+F 1 "LPF_OUT" H 10200 3750 50  0000 C CNN
+F 2 "Xenir:PCB-SMA-EDGE" H 10200 3750 50  0001 C CNN
+F 3 "" H 10200 3750 50  0001 C CNN
+	1    10200 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Xenir:Splitter_Center_Tap T2
+U 1 1 61CFF29A
+P 8550 5050
+F 0 "T2" H 8550 3800 50  0000 C CNN
+F 1 "Ferrite 1T:3T" V 8800 4450 50  0000 C CNN
+F 2 "Xenir:Ferrite-Tube-Splitter-SMD" H 8550 5050 50  0001 C CNN
+F 3 "" H 8550 5050 50  0001 C CNN
+	1    8550 5050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8200 3300 8200 4050
+Wire Wire Line
+	8200 4850 8200 5700
 $EndSCHEMATC
