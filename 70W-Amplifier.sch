@@ -19,7 +19,7 @@ U 1 1 61C49664
 P 6350 1700
 F 0 "U1" H 6350 1942 50  0000 C CNN
 F 1 "L7805" H 6350 1851 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6375 1550 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 6375 1550 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 6350 1650 50  0001 C CNN
 	1    6350 1700
 	1    0    0    -1  
@@ -295,7 +295,7 @@ U 1 1 61C68424
 P 2200 4650
 F 0 "J2" H 2350 4450 50  0000 C CNN
 F 1 "RF_IN" H 2450 4550 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 2200 4800 50  0001 C CNN
+F 2 "Xenir:BNC" H 2200 4800 50  0001 C CNN
 F 3 "" H 2200 4800 50  0001 C CNN
 	1    2200 4650
 	1    0    0    -1  
@@ -306,7 +306,7 @@ U 1 1 61C69914
 P 1800 4250
 F 0 "J1" H 2000 4050 50  0000 C CNN
 F 1 "RF_OUT" H 2050 4150 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1800 4400 50  0001 C CNN
+F 2 "Xenir:BNC" H 1800 4400 50  0001 C CNN
 F 3 "" H 1800 4400 50  0001 C CNN
 	1    1800 4250
 	1    0    0    -1  

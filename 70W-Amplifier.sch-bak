@@ -19,7 +19,7 @@ U 1 1 61C49664
 P 6350 1700
 F 0 "U1" H 6350 1942 50  0000 C CNN
 F 1 "L7805" H 6350 1851 50  0000 C CNN
-F 2 "" H 6375 1550 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6375 1550 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 6350 1650 50  0001 C CNN
 	1    6350 1700
 	1    0    0    -1  
