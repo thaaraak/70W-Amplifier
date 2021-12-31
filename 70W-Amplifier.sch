@@ -90,7 +90,7 @@ U 1 1 61C50CA7
 P 3500 1800
 F 0 "J5" H 3418 1475 50  0000 C CNN
 F 1 "13.8V Input" H 3418 1566 50  0000 C CNN
-F 2 "Xenir:Power Connector" H 3500 1800 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 3500 1800 50  0001 C CNN
 F 3 "~" H 3500 1800 50  0001 C CNN
 	1    3500 1800
 	-1   0    0    1   
@@ -213,7 +213,7 @@ U 1 1 61C5A9DA
 P 8200 1950
 F 0 "VR1" H 8400 2100 50  0000 R CNN
 F 1 "1.5k" H 8500 1800 50  0000 R CNN
-F 2 "Xenir:Trimpot Vertical" H 8200 1950 50  0001 C CNN
+F 2 "Xenir:Trimpot_Horizontal" H 8200 1950 50  0001 C CNN
 F 3 "~" H 8200 1950 50  0001 C CNN
 	1    8200 1950
 	1    0    0    -1  

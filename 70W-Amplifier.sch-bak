@@ -547,29 +547,14 @@ Wire Wire Line
 	6550 5700 6400 5700
 Wire Wire Line
 	6400 5500 6400 5700
-$Comp
-L Xenir:T50_SPLITTER T2
-U 1 1 61CE7B62
-P 8550 5150
-F 0 "T2" H 8250 4450 50  0000 C CNN
-F 1 "FERRITE TUBE 1T:3T" V 8350 4450 31  0000 C CNN
-F 2 "Xenir:BN-43-202-Vertical" H 8550 5150 50  0001 C CNN
-F 3 "" H 8550 5150 50  0001 C CNN
-	1    8550 5150
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6950 3300 8200 3300
-Wire Wire Line
-	8200 3300 8200 3950
 Connection ~ 6950 3300
-Wire Wire Line
-	8200 4950 8200 5700
 Wire Wire Line
 	8200 5700 6950 5700
 Connection ~ 6950 5700
 Wire Wire Line
-	8200 4350 8200 4550
+	8200 4350 8200 4450
 $Comp
 L Xenir:Capacitor C1
 U 1 1 61CECBAC
@@ -594,7 +579,6 @@ F 3 "" H 7850 4650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8200 4350 7850 4350
-Connection ~ 8200 4350
 $Comp
 L power:+12V #PWR015
 U 1 1 61CF3E8E
@@ -708,7 +692,7 @@ L Xenir:Splitter_Center_Tap T1
 U 1 1 61CE4121
 P 5000 3850
 F 0 "T1" H 5000 2600 50  0000 C CNN
-F 1 "Splitter_Center_Tap" H 5000 3750 50  0000 C CNN
+F 1 "BN-43-202 1T:2T" V 5250 3250 50  0000 C CNN
 F 2 "Xenir:BN-43-202-Splitter-SMD" H 5000 3850 50  0001 C CNN
 F 3 "" H 5000 3850 50  0001 C CNN
 	1    5000 3850
@@ -751,4 +735,19 @@ F 3 "" H 10200 3750 50  0001 C CNN
 	1    10200 3750
 	0    1    1    0   
 $EndComp
+$Comp
+L Xenir:Splitter_Center_Tap T2
+U 1 1 61CFF29A
+P 8550 5050
+F 0 "T2" H 8550 3800 50  0000 C CNN
+F 1 "Ferrite 1T:3T" V 8800 4450 50  0000 C CNN
+F 2 "Xenir:Ferrite-Tube-Splitter-SMD" H 8550 5050 50  0001 C CNN
+F 3 "" H 8550 5050 50  0001 C CNN
+	1    8550 5050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8200 3300 8200 4050
+Wire Wire Line
+	8200 4850 8200 5700
 $EndSCHEMATC
