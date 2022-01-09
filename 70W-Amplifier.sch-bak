@@ -428,8 +428,8 @@ $Comp
 L Transistor_FET:IRF540N Q2
 U 1 1 61CD37AD
 P 6850 3950
-F 0 "Q2" H 7054 3996 50  0000 L CNN
-F 1 "IRF530" H 7054 3905 50  0000 L CNN
+F 0 "Q2" H 7000 4100 50  0000 L CNN
+F 1 "IRF530" H 6600 4100 50  0000 L CNN
 F 2 "Xenir:TO-220-Horizontal" H 7100 3875 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 6850 3950 50  0001 L CNN
 	1    6850 3950
@@ -439,33 +439,26 @@ $Comp
 L Transistor_FET:IRF540N Q3
 U 1 1 61CD4539
 P 6850 4950
-F 0 "Q3" H 7054 4904 50  0000 L CNN
-F 1 "IRF530" H 7054 4995 50  0000 L CNN
+F 0 "Q3" H 7000 5100 50  0000 L CNN
+F 1 "IRF530" H 6600 5100 50  0000 L CNN
 F 2 "Xenir:TO-220-Horizontal" H 7100 4875 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf540n.pdf" H 6850 4950 50  0001 L CNN
 	1    6850 4950
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	6950 4150 6950 4350
 $Comp
 L power:GND #PWR013
 U 1 1 61CD68E3
-P 7100 4400
-F 0 "#PWR013" H 7100 4150 50  0001 C CNN
-F 1 "GND" H 7105 4227 50  0000 C CNN
-F 2 "" H 7100 4400 50  0001 C CNN
-F 3 "" H 7100 4400 50  0001 C CNN
-	1    7100 4400
+P 7550 4500
+F 0 "#PWR013" H 7550 4250 50  0001 C CNN
+F 1 "GND" H 7555 4327 50  0000 C CNN
+F 2 "" H 7550 4500 50  0001 C CNN
+F 3 "" H 7550 4500 50  0001 C CNN
+	1    7550 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6950 4350 7100 4350
-Wire Wire Line
-	7100 4350 7100 4400
-Connection ~ 6950 4350
-Wire Wire Line
-	6950 4350 6950 4750
+	7550 4450 7550 4500
 Wire Wire Line
 	5350 3950 6400 3950
 Wire Wire Line
@@ -758,4 +751,71 @@ Text Label 6950 3650 0    50   ~ 0
 Q2Drain
 Text Label 6950 5350 0    50   ~ 0
 Q3Drain
+$Comp
+L Xenir:Resistor R8
+U 1 1 61E660AB
+P 7150 4150
+F 0 "R8" V 7200 4275 28  0000 R CNN
+F 1 ".17" V 7150 4275 28  0000 R CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" H 7150 4050 50  0001 C CNN
+F 3 "" H 7150 4050 50  0001 C CNN
+	1    7150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenir:Resistor R9
+U 1 1 61E6F0FA
+P 7150 4750
+F 0 "R9" V 7179 4682 28  0000 R CNN
+F 1 ".17" V 7122 4682 28  0000 R CNN
+F 2 "Resistor_SMD:R_2512_6332Metric" H 7150 4650 50  0001 C CNN
+F 3 "" H 7150 4650 50  0001 C CNN
+	1    7150 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xenir:Capacitor C6
+U 1 1 61E6FCAB
+P 7100 4325
+F 0 "C6" V 7025 4250 28  0000 L CNN
+F 1 ".2uF" V 7200 4200 28  0000 L CNN
+F 2 "Xenir:Capacitor 1206" H 7100 4175 50  0001 C CNN
+F 3 "" H 7100 4175 50  0001 C CNN
+	1    7100 4325
+	-1   0    0    1   
+$EndComp
+$Comp
+L Xenir:Capacitor C7
+U 1 1 61E706E7
+P 7100 4550
+F 0 "C7" V 7025 4475 28  0000 L CNN
+F 1 ".2uF" V 7200 4425 28  0000 L CNN
+F 2 "Xenir:Capacitor 1206" H 7100 4400 50  0001 C CNN
+F 3 "" H 7100 4400 50  0001 C CNN
+	1    7100 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 4550 6950 4750
+Connection ~ 6950 4750
+Wire Wire Line
+	6950 4325 6950 4150
+Connection ~ 6950 4150
+Wire Wire Line
+	7350 4150 7350 4325
+Wire Wire Line
+	7350 4450 7550 4450
+Wire Wire Line
+	7350 4750 7350 4550
+Connection ~ 7350 4450
+Wire Wire Line
+	7250 4325 7350 4325
+Connection ~ 7350 4325
+Wire Wire Line
+	7350 4325 7350 4450
+Wire Wire Line
+	7250 4550 7350 4550
+Connection ~ 7350 4550
+Wire Wire Line
+	7350 4550 7350 4450
 $EndSCHEMATC
