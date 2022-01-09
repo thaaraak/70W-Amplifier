@@ -1,4 +1,4 @@
-19481752330894512
+19483394097964512
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83208,6 +83208,13 @@ Power Connector
 0
 2
 2
+Xenir
+Relay_DPDT_Omron_G5V-2-SMD
+http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v2.pdf
+Omron G5V-2 Relay DPDT
+0
+8
+8
 Xenir
 Resistor 0805
 
