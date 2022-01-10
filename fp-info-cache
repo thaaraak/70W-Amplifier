@@ -1,4 +1,4 @@
-19483394097964512
+19486677651251512
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83055,6 +83055,13 @@ BN-43-202-Vertical
 2
 2
 Xenir
+BN-43-202-Vertical-SMD
+
+
+0
+2
+2
+Xenir
 BN-43-2402
 
 
@@ -83173,6 +83180,13 @@ LCD_I2C
 0
 4
 4
+Xenir
+LargeResistorSurfaceMount
+Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=20.32mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf
+Resistor Axial_DIN0414 series Axial Horizontal pin pitch 20.32mm 2W length 11.9mm diameter 4.5mm
+0
+2
+2
 Xenir
 PCB SMA
 

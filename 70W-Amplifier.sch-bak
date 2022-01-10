@@ -213,7 +213,7 @@ U 1 1 61C5A9DA
 P 8200 1950
 F 0 "VR1" H 8400 2100 50  0000 R CNN
 F 1 "1.5k" H 8500 1800 50  0000 R CNN
-F 2 "Xenir:Trimpot_Horizontal" H 8200 1950 50  0001 C CNN
+F 2 "Xenir:Trimpot_Horizontal_SMD" H 8200 1950 50  0001 C CNN
 F 3 "~" H 8200 1950 50  0001 C CNN
 	1    8200 1950
 	1    0    0    -1  
@@ -306,7 +306,7 @@ U 1 1 61C6A911
 P 3450 4250
 F 0 "K1" V 2683 4250 50  0000 C CNN
 F 1 "G5V-2" V 2774 4250 50  0000 C CNN
-F 2 "Relay_THT:Relay_DPDT_Omron_G5V-2" H 4100 4200 50  0001 L CNN
+F 2 "Xenir:Relay_DPDT_Omron_G5V-2-SMD" H 4100 4200 50  0001 L CNN
 F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf" H 3450 4250 50  0001 C CNN
 	1    3450 4250
 	0    1    1    0   
