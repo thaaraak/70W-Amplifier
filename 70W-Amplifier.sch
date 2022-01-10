@@ -90,7 +90,7 @@ U 1 1 61C50CA7
 P 3500 1800
 F 0 "J5" H 3418 1475 50  0000 C CNN
 F 1 "13.8V Input" H 3418 1566 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 3500 1800 50  0001 C CNN
+F 2 "Xenir:PowerConnectorPads" H 3500 1800 50  0001 C CNN
 F 3 "~" H 3500 1800 50  0001 C CNN
 	1    3500 1800
 	-1   0    0    1   
@@ -137,7 +137,7 @@ U 1 1 61C53873
 P 4950 2900
 F 0 "J6" H 4868 2575 50  0000 C CNN
 F 1 "PTT" H 4868 2666 50  0000 C CNN
-F 2 "Xenir:Power Connector" H 4950 2900 50  0001 C CNN
+F 2 "Xenir:TwoPads" H 4950 2900 50  0001 C CNN
 F 3 "~" H 4950 2900 50  0001 C CNN
 	1    4950 2900
 	-1   0    0    1   
