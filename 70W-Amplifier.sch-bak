@@ -691,7 +691,7 @@ F 1 "2N3906-SMD" H 5500 1800 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5500 1725 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 5300 1800 50  0001 L CNN
 	1    5300 1800
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Xenir:PCB_SMA_EDGE J3
