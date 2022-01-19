@@ -818,4 +818,6 @@ Wire Wire Line
 Connection ~ 7350 4550
 Wire Wire Line
 	7350 4550 7350 4450
+Text Notes 3450 5600 0    50   ~ 0
+Test
 $EndSCHEMATC
