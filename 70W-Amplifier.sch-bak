@@ -829,4 +829,94 @@ F 3 "" H 9050 4600 50  0001 C CNN
 	1    9050 4750
 	-1   0    0    1   
 $EndComp
+$Comp
+L Diode:1N914 D2
+U 1 1 61E91B1A
+P 9250 2450
+F 0 "D2" H 9250 2233 50  0000 C CNN
+F 1 "1N914" H 9250 2324 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 9250 2275 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 9250 2450 50  0001 C CNN
+	1    9250 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N914 D4
+U 1 1 61E92F86
+P 9550 2450
+F 0 "D4" H 9550 2233 50  0000 C CNN
+F 1 "1N914" H 9550 2324 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 9550 2275 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 9550 2450 50  0001 C CNN
+	1    9550 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N914 D6
+U 1 1 61E93EBC
+P 9850 2450
+F 0 "D6" H 9850 2233 50  0000 C CNN
+F 1 "1N914" H 9850 2324 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 9850 2275 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 9850 2450 50  0001 C CNN
+	1    9850 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N914 D7
+U 1 1 61E94F31
+P 9850 2750
+F 0 "D7" H 9850 2967 50  0000 C CNN
+F 1 "1N914" H 9850 2876 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 9850 2575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 9850 2750 50  0001 C CNN
+	1    9850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D5
+U 1 1 61E9657F
+P 9550 2750
+F 0 "D5" H 9550 2967 50  0000 C CNN
+F 1 "1N914" H 9550 2876 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 9550 2575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 9550 2750 50  0001 C CNN
+	1    9550 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N914 D3
+U 1 1 61E977BD
+P 9250 2750
+F 0 "D3" H 9250 2967 50  0000 C CNN
+F 1 "1N914" H 9250 2876 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 9250 2575 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 9250 2750 50  0001 C CNN
+	1    9250 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 2450 10000 2750
+$Comp
+L Connector_Generic:Conn_01x01 BIAS_IN1
+U 1 1 61EAA0AE
+P 8900 2450
+F 0 "BIAS_IN1" H 9000 2250 50  0000 C CNN
+F 1 "Conn_01x01" H 9000 2350 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 8900 2450 50  0001 C CNN
+F 3 "~" H 8900 2450 50  0001 C CNN
+	1    8900 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 BIAS_OUT1
+U 1 1 61EAB06B
+P 8900 2750
+F 0 "BIAS_OUT1" H 9000 2850 50  0000 C CNN
+F 1 "Conn_01x01" H 9000 2950 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 8900 2750 50  0001 C CNN
+F 3 "~" H 8900 2750 50  0001 C CNN
+	1    8900 2750
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
