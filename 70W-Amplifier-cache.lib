@@ -1,6 +1,23 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_Generic_Conn_01x01
+#
+DEF Connector_Generic_Conn_01x01 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Generic_Conn_01x01" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic_Conn_01x02
 #
 DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
@@ -67,6 +84,25 @@ ENDDEF
 DEF Diode_1N4148 D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "Diode_1N4148" 0 -100 50 H V C CNN
+F2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" 0 -175 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ D*DO?35*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diode_1N914
+#
+DEF Diode_1N914 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Diode_1N914" 0 -100 50 H V C CNN
 F2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" 0 -175 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS 1N4448 1N4149 1N4151 1N914 BA243 BA244 BA282 BA283 BAV17 BAV18 BAV19 BAV20 BAV21 BAW75 BAW76 BAY93
