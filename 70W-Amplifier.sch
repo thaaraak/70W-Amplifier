@@ -165,7 +165,7 @@ U 1 1 61C5506E
 P 3450 3250
 F 0 "D1" H 3450 3467 50  0000 C CNN
 F 1 "1N4148" H 3450 3376 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 3075 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3450 3075 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 3250 50  0001 C CNN
 	1    3450 3250
 	1    0    0    -1  
