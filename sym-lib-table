@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name 70W-Amplifier-rescue)(type Legacy)(uri ${KIPRJMOD}/70W-Amplifier-rescue.lib)(options "")(descr ""))
+)
