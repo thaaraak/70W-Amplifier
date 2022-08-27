@@ -1,0 +1,45 @@
+Reference, Value, Footprint,Source, Datasheet
+U1,L7805,Package_TO_SOT_SMD:TO-252-3_TabPin2,eBay,http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+R1,10k,Xenir:Resistor 1206,https://www.amazon.com/Resistor-Assortment-Values-0R-10M-Resistor-1206/dp/B09DXGLNHS/ref=sr_1_5?crid=1KDJ6HNCIEHXV&keywords=smd+1206+resistor+book&qid=1660655431&sprefix=smd+1206+resistor+book%2Caps%2C148&sr=8-5,
+R2,10k,Xenir:Resistor 1206,,
+EC2,100uF,Capacitor_SMD:CP_Elec_6.3x7.7,https://www.amazon.com/Electrolytic-Capacitors-Frequency-Aluminum-Assortment/dp/B0793N3YJR/ref=sr_1_1?crid=PKF6L8LR310B&keywords=smd+electrolytic+cap&qid=1660655486&sprefix=smd+1206+resistor+book%2Caps%2C100&sr=8-1,
+EC1,100uF,Capacitor_SMD:CP_Elec_6.3x7.7,,
+J5,13.8V Input,Xenir:PowerConnectorPads,,~
+J6,PTT,Xenir:TwoPads,,~
+D1,1N4148,Diode_SMD:D_SOD-123,Digikey,https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
+VR1,1.5k,Xenir:Trimpot_Horizontal_SMD,,~
+R7,180,Xenir:Resistor 1206,,
+C2,.1uF,Xenir:Capacitor 1206,,
+J2,RF_IN,Xenir:BNC,https://www.amazon.com/Welding-Adapter-Connector-Monitoring-Amplifier/dp/B08B5VJ1PP/ref=sr_1_5?crid=7AARG2SF97CV&keywords=pcb+mount+bnc&qid=1660655537&sprefix=pcb+mount+bnc%2Caps%2C88&sr=8-5,
+J1,RF_OUT,Xenir:BNC,,
+K1,G5V-2,Xenir:Relay_DPDT_Omron_G5V-2-SMD,https://www.ebay.com/itm/291739505384,http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf
+R3,10k,Xenir:Resistor 1206,,
+C3,.1uF,Xenir:Capacitor 1206,,
+Q2,IRF530,Xenir:TO-220-Horizontal,https://www.digikey.com/en/products/detail/vishay-siliconix/IRF530PBF/811781,http://www.irf.com/product-info/datasheets/data/irf540n.pdf
+Q3,IRF530,Xenir:TO-220-Horizontal,,http://www.irf.com/product-info/datasheets/data/irf540n.pdf
+R4,100,Xenir:LargeResistorSurfaceMount,Digikey .17 ohm 1 watt,
+C4,.47uF,Xenir:Capacitor 1206,https://www.amazon.com/WINGONEER-Capacitor-0-5pF-1uF-2000pcs-Sample/dp/B072PRLY9Q/ref=sr_1_11?crid=22KWIDKJVXYUN&keywords=smd+1206+capacitor+book&qid=1660655711&sprefix=smd+1206+capacitor+%2Caps%2C316&sr=8-11&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc,
+C5,.47uF,Xenir:Capacitor 1206,,
+R5,100,Xenir:LargeResistorSurfaceMount,,
+C1,.1uF,Xenir:Capacitor 1206,,
+L1,BN-43-202 2T,Xenir:BN-43-202-Vertical-SMD,kitsandparts.com,
+JP1,LPF Bypass,Xenir:Jumper,,~
+R6,18,Xenir:LargeResistorSurfaceMount,,
+T1,BN-43-202 1T:2T,Xenir:BN-43-202-Splitter-SMD,,
+Q1,2N3906-SMD,Package_TO_SOT_SMD:SOT-23,,https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf
+J3,LPF_IN,Xenir:PCB-SMA-EDGE,,
+J4,LPF_OUT,Xenir:PCB-SMA-EDGE,,
+T2,Ferrite 1T:3T,Xenir:Ferrite-Tube-Splitter-SMD,kitsandparts.com – stacked FT50-43,
+R8,0.17,Resistor_SMD:R_2512_6332Metric,,
+R9,0.17,Resistor_SMD:R_2512_6332Metric,,
+C6,.2uF,Xenir:Capacitor 1206,,
+C7,.2uF,Xenir:Capacitor 1206,,
+C8,.1uF,Xenir:Capacitor 1206,,
+D2,1N914,Diode_SMD:D_SOD-123,,http://www.vishay.com/docs/85622/1n914.pdf
+D4,1N914,Diode_SMD:D_SOD-123,,http://www.vishay.com/docs/85622/1n914.pdf
+D6,1N914,Diode_SMD:D_SOD-123,,http://www.vishay.com/docs/85622/1n914.pdf
+D7,1N914,Diode_SMD:D_SOD-123,,http://www.vishay.com/docs/85622/1n914.pdf
+D5,1N914,Diode_SMD:D_SOD-123,,http://www.vishay.com/docs/85622/1n914.pdf
+D3,1N914,Diode_SMD:D_SOD-123,,http://www.vishay.com/docs/85622/1n914.pdf
+J7,Conn_01x02,Xenir:PinPad,,~
+J8,Conn_01x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,,~
