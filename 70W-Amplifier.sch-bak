@@ -25,7 +25,7 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b
 	1    0    0    -1  
 $EndComp
 $Comp
-L 70W-Amplifier-rescue:Resistor-Xenir-70W-Amplifier-rescue R1
+L 70W-Amplifier-rescue:Resistor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue R1
 U 1 1 61C4B77E
 P 4950 2150
 F 0 "R1" H 4950 1996 28  0000 C CNN
@@ -36,7 +36,7 @@ F 3 "" H 4950 2050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 70W-Amplifier-rescue:Resistor-Xenir-70W-Amplifier-rescue R2
+L 70W-Amplifier-rescue:Resistor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue R2
 U 1 1 61C4D74C
 P 5300 2450
 F 0 "R2" V 5329 2382 28  0000 R CNN
@@ -54,7 +54,7 @@ Connection ~ 5300 2150
 Wire Wire Line
 	5300 2150 5300 2250
 $Comp
-L 70W-Amplifier-rescue:Cap_Polarized-Xenir-70W-Amplifier-rescue EC2
+L 70W-Amplifier-rescue:Cap_Polarized-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue EC2
 U 1 1 61C4EC77
 P 7100 1950
 F 0 "EC2" V 7071 1968 28  0000 L CNN
@@ -65,7 +65,7 @@ F 3 "" H 7100 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 70W-Amplifier-rescue:Cap_Polarized-Xenir-70W-Amplifier-rescue EC1
+L 70W-Amplifier-rescue:Cap_Polarized-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue EC1
 U 1 1 61C4FE0A
 P 4300 1950
 F 0 "EC1" V 4271 1968 28  0000 L CNN
@@ -219,7 +219,7 @@ F 3 "~" H 8200 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 70W-Amplifier-rescue:Resistor-Xenir-70W-Amplifier-rescue R7
+L 70W-Amplifier-rescue:Resistor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue R7
 U 1 1 61C5E001
 P 7400 1700
 F 0 "R7" H 7400 1546 28  0000 C CNN
@@ -230,7 +230,7 @@ F 3 "" H 7400 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 70W-Amplifier-rescue:Capacitor-Xenir-70W-Amplifier-rescue C2
+L 70W-Amplifier-rescue:Capacitor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue C2
 U 1 1 61C5E84F
 P 7700 1950
 F 0 "C2" V 7671 2065 28  0000 L CNN
@@ -279,7 +279,7 @@ BIAS
 Wire Wire Line
 	8350 1950 8450 1950
 $Comp
-L 70W-Amplifier-rescue:BNC-Xenir-70W-Amplifier-rescue J2
+L 70W-Amplifier-rescue:BNC-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue J2
 U 1 1 61C68424
 P 2200 4650
 F 0 "J2" H 2350 4450 50  0000 C CNN
@@ -290,7 +290,7 @@ F 3 "" H 2200 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 70W-Amplifier-rescue:BNC-Xenir-70W-Amplifier-rescue J1
+L 70W-Amplifier-rescue:BNC-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue J1
 U 1 1 61C69914
 P 1800 4250
 F 0 "J1" H 2000 4050 50  0000 C CNN
@@ -373,7 +373,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 4350 5350 4450
 $Comp
-L 70W-Amplifier-rescue:Resistor-Xenir-70W-Amplifier-rescue R3
+L 70W-Amplifier-rescue:Resistor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue R3
 U 1 1 61CCDCF5
 P 5700 4550
 F 0 "R3" V 5729 4482 28  0000 R CNN
@@ -384,7 +384,7 @@ F 3 "" H 5700 4450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 70W-Amplifier-rescue:Capacitor-Xenir-70W-Amplifier-rescue C3
+L 70W-Amplifier-rescue:Capacitor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue C3
 U 1 1 61CCE86F
 P 6050 4500
 F 0 "C3" V 6021 4615 28  0000 L CNN
@@ -464,7 +464,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 4950 6400 4950
 $Comp
-L 70W-Amplifier-rescue:Resistor-Xenir-70W-Amplifier-rescue R4
+L 70W-Amplifier-rescue:Resistor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue R4
 U 1 1 61CDA054
 P 6750 3300
 F 0 "R4" H 6750 3146 28  0000 C CNN
@@ -475,7 +475,7 @@ F 3 "" H 6750 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 70W-Amplifier-rescue:Capacitor-Xenir-70W-Amplifier-rescue C4
+L 70W-Amplifier-rescue:Capacitor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue C4
 U 1 1 61CDADD3
 P 6400 3600
 F 0 "C4" V 6371 3715 28  0000 L CNN
@@ -497,7 +497,7 @@ Connection ~ 6400 3950
 Wire Wire Line
 	6400 3950 6650 3950
 $Comp
-L 70W-Amplifier-rescue:Capacitor-Xenir-70W-Amplifier-rescue C5
+L 70W-Amplifier-rescue:Capacitor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue C5
 U 1 1 61CDF56C
 P 6400 5350
 F 0 "C5" V 6371 5465 28  0000 L CNN
@@ -508,7 +508,7 @@ F 3 "" H 6400 5200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 70W-Amplifier-rescue:Resistor-Xenir-70W-Amplifier-rescue R5
+L 70W-Amplifier-rescue:Resistor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue R5
 U 1 1 61CDFD89
 P 6750 5700
 F 0 "R5" H 6750 5546 28  0000 C CNN
@@ -538,7 +538,7 @@ Connection ~ 6950 5700
 Wire Wire Line
 	8200 4350 8200 4450
 $Comp
-L 70W-Amplifier-rescue:Capacitor-Xenir-70W-Amplifier-rescue C1
+L 70W-Amplifier-rescue:Capacitor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue C1
 U 1 1 61CECBAC
 P 7850 4500
 F 0 "C1" V 7821 4615 28  0000 L CNN
@@ -575,7 +575,7 @@ $EndComp
 Text GLabel 3750 4350 2    50   Input ~ 0
 LPF
 $Comp
-L 70W-Amplifier-rescue:Inductor-Xenir-70W-Amplifier-rescue L1
+L 70W-Amplifier-rescue:Inductor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue L1
 U 1 1 61D26F6D
 P 7850 4000
 F 0 "L1" V 7750 3850 50  0000 L CNN
@@ -653,7 +653,7 @@ Connection ~ 9450 4750
 Wire Wire Line
 	6050 4350 6050 4250
 $Comp
-L 70W-Amplifier-rescue:Resistor-Xenir-70W-Amplifier-rescue R6
+L 70W-Amplifier-rescue:Resistor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue R6
 U 1 1 61C90F87
 P 6400 4400
 F 0 "R6" V 6400 4246 28  0000 C CNN
@@ -668,7 +668,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 4950 6400 4600
 $Comp
-L 70W-Amplifier-rescue:Splitter_Center_Tap-Xenir-70W-Amplifier-rescue T1
+L 70W-Amplifier-rescue:Splitter_Center_Tap-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue T1
 U 1 1 61CE4121
 P 5000 3850
 F 0 "T1" H 5000 2600 50  0000 C CNN
@@ -683,7 +683,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 4850 5350 4950
 $Comp
-L 70W-Amplifier-rescue:2N3906-SMD-Xenir-70W-Amplifier-rescue Q1
+L 70W-Amplifier-rescue:2N3906-SMD-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue Q1
 U 1 1 61CF1527
 P 5300 1800
 F 0 "Q1" H 5500 1875 50  0000 L CNN
@@ -694,7 +694,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 5300 1800 50  000
 	0    1    -1   0   
 $EndComp
 $Comp
-L 70W-Amplifier-rescue:PCB_SMA_EDGE-Xenir-70W-Amplifier-rescue J3
+L 70W-Amplifier-rescue:PCB_SMA_EDGE-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue J3
 U 1 1 61CF5952
 P 9650 4350
 F 0 "J3" H 9700 4250 50  0000 C CNN
@@ -705,7 +705,7 @@ F 3 "" H 9650 4350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 70W-Amplifier-rescue:PCB_SMA_EDGE-Xenir-70W-Amplifier-rescue J4
+L 70W-Amplifier-rescue:PCB_SMA_EDGE-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue J4
 U 1 1 61CF9C6B
 P 10500 4350
 F 0 "J4" H 10550 4250 50  0000 C CNN
@@ -716,7 +716,7 @@ F 3 "" H 10500 4350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 70W-Amplifier-rescue:Splitter_Center_Tap-Xenir-70W-Amplifier-rescue T2
+L 70W-Amplifier-rescue:Splitter_Center_Tap-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue T2
 U 1 1 61CFF29A
 P 8550 5050
 F 0 "T2" H 8550 3800 50  0000 C CNN
@@ -752,7 +752,7 @@ Q2Drain
 Text Label 6950 5350 0    50   ~ 0
 Q3Drain
 $Comp
-L 70W-Amplifier-rescue:Resistor-Xenir-70W-Amplifier-rescue R8
+L 70W-Amplifier-rescue:Resistor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue R8
 U 1 1 61E660AB
 P 7150 4150
 F 0 "R8" V 7200 4275 28  0000 R CNN
@@ -763,7 +763,7 @@ F 3 "" H 7150 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 70W-Amplifier-rescue:Resistor-Xenir-70W-Amplifier-rescue R9
+L 70W-Amplifier-rescue:Resistor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue R9
 U 1 1 61E6F0FA
 P 7150 4750
 F 0 "R9" V 7179 4682 28  0000 R CNN
@@ -774,7 +774,7 @@ F 3 "" H 7150 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 70W-Amplifier-rescue:Capacitor-Xenir-70W-Amplifier-rescue C6
+L 70W-Amplifier-rescue:Capacitor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue C6
 U 1 1 61E6FCAB
 P 7100 4325
 F 0 "C6" V 7025 4250 28  0000 L CNN
@@ -785,7 +785,7 @@ F 3 "" H 7100 4175 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 70W-Amplifier-rescue:Capacitor-Xenir-70W-Amplifier-rescue C7
+L 70W-Amplifier-rescue:Capacitor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue C7
 U 1 1 61E706E7
 P 7100 4550
 F 0 "C7" V 7025 4475 28  0000 L CNN
@@ -819,7 +819,7 @@ Connection ~ 7350 4550
 Wire Wire Line
 	7350 4550 7350 4450
 $Comp
-L 70W-Amplifier-rescue:Capacitor-Xenir-70W-Amplifier-rescue C8
+L 70W-Amplifier-rescue:Capacitor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue C8
 U 1 1 61E9AE04
 P 9050 4750
 F 0 "C8" V 9021 4865 28  0000 L CNN

@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 70W-Amplifier-rescue_2N3906-SMD-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue
+# 70W-Amplifier-rescue_2N3906-SMD-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue
 #
-DEF 70W-Amplifier-rescue_2N3906-SMD-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue Q 0 0 Y N 1 F N
+DEF 70W-Amplifier-rescue_2N3906-SMD-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "70W-Amplifier-rescue_2N3906-SMD-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue" 200 0 50 H V L CNN
+F1 "70W-Amplifier-rescue_2N3906-SMD-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -23,11 +23,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 70W-Amplifier-rescue_BNC-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue
+# 70W-Amplifier-rescue_BNC-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue
 #
-DEF 70W-Amplifier-rescue_BNC-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue J 0 40 Y Y 1 F N
+DEF 70W-Amplifier-rescue_BNC-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue J 0 40 Y Y 1 F N
 F0 "J" -100 -150 50 H V C CNN
-F1 "70W-Amplifier-rescue_BNC-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue" 0 150 50 H V C CNN
+F1 "70W-Amplifier-rescue_BNC-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue" 0 150 50 H V C CNN
 F2 "" 0 150 50 H I C CNN
 F3 "" 0 150 50 H I C CNN
 DRAW
@@ -38,11 +38,11 @@ X OUT S 200 0 200 L 0 0 1 1 B
 ENDDRAW
 ENDDEF
 #
-# 70W-Amplifier-rescue_Cap_Polarized-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue
+# 70W-Amplifier-rescue_Cap_Polarized-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue
 #
-DEF 70W-Amplifier-rescue_Cap_Polarized-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue C 0 40 Y Y 1 F N
+DEF 70W-Amplifier-rescue_Cap_Polarized-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue C 0 40 Y Y 1 F N
 F0 "C" 0 -225 28 H V C CNN
-F1 "70W-Amplifier-rescue_Cap_Polarized-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue" 0 50 28 H V C CNN
+F1 "70W-Amplifier-rescue_Cap_Polarized-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue" 0 50 28 H V C CNN
 F2 "" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 DRAW
@@ -55,11 +55,11 @@ X ~ 2 150 -100 110 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 70W-Amplifier-rescue_Capacitor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue
+# 70W-Amplifier-rescue_Capacitor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue
 #
-DEF 70W-Amplifier-rescue_Capacitor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue C 0 40 Y Y 1 F N
+DEF 70W-Amplifier-rescue_Capacitor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue C 0 40 Y Y 1 F N
 F0 "C" 0 125 28 H V C CNN
-F1 "70W-Amplifier-rescue_Capacitor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue" 0 -125 28 H V C CNN
+F1 "70W-Amplifier-rescue_Capacitor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue" 0 -125 28 H V C CNN
 F2 "" 0 -150 50 H I C CNN
 F3 "" 0 -150 50 H I C CNN
 DRAW
@@ -70,11 +70,11 @@ X ~ 2 150 0 110 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 70W-Amplifier-rescue_Inductor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue
+# 70W-Amplifier-rescue_Inductor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue
 #
-DEF 70W-Amplifier-rescue_Inductor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue L 0 40 Y Y 1 F N
+DEF 70W-Amplifier-rescue_Inductor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue L 0 40 Y Y 1 F N
 F0 "L" 0 -50 50 H V C CNN
-F1 "70W-Amplifier-rescue_Inductor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue" 0 100 50 H V C CNN
+F1 "70W-Amplifier-rescue_Inductor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue" 0 100 50 H V C CNN
 F2 "" 0 100 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 DRAW
@@ -87,11 +87,11 @@ X 2 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 70W-Amplifier-rescue_PCB_SMA_EDGE-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue
+# 70W-Amplifier-rescue_PCB_SMA_EDGE-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue
 #
-DEF 70W-Amplifier-rescue_PCB_SMA_EDGE-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue J 0 40 Y Y 1 F N
+DEF 70W-Amplifier-rescue_PCB_SMA_EDGE-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue J 0 40 Y Y 1 F N
 F0 "J" 50 -100 50 H V C CNN
-F1 "70W-Amplifier-rescue_PCB_SMA_EDGE-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue" 0 0 50 H V C CNN
+F1 "70W-Amplifier-rescue_PCB_SMA_EDGE-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -108,11 +108,11 @@ X 2 2 100 -300 100 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 70W-Amplifier-rescue_Resistor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue
+# 70W-Amplifier-rescue_Resistor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue
 #
-DEF 70W-Amplifier-rescue_Resistor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue R 0 40 Y Y 1 F N
+DEF 70W-Amplifier-rescue_Resistor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue R 0 40 Y Y 1 F N
 F0 "R" 0 75 28 H V C CNN
-F1 "70W-Amplifier-rescue_Resistor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue" 0 -75 28 H V C CNN
+F1 "70W-Amplifier-rescue_Resistor-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue" 0 -75 28 H V C CNN
 F2 "" 0 -100 50 H I C CNN
 F3 "" 0 -100 50 H I C CNN
 DRAW
@@ -130,11 +130,11 @@ X 2 2 200 0 100 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 70W-Amplifier-rescue_Splitter_Center_Tap-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue
+# 70W-Amplifier-rescue_Splitter_Center_Tap-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue
 #
-DEF 70W-Amplifier-rescue_Splitter_Center_Tap-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue T 0 40 Y Y 1 F N
+DEF 70W-Amplifier-rescue_Splitter_Center_Tap-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue T 0 40 Y Y 1 F N
 F0 "T" 0 -1250 50 H V C CNN
-F1 "70W-Amplifier-rescue_Splitter_Center_Tap-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue" 0 -100 50 H V C CNN
+F1 "70W-Amplifier-rescue_Splitter_Center_Tap-Xenir-70W-Amplifier-rescue-70W-Amplifier-rescue-70W-Amplifier-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -196,6 +196,9 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  SolderJumper*
+ Jumper*
+ TestPoint*2Pads*
+ TestPoint*Bridge*
 $ENDFPLIST
 DRAW
 A 0 -26 125 1426 373 0 1 0 N -98 50 99 50
@@ -237,9 +240,9 @@ $FPLIST
  D*DO?35*
 $ENDFPLIST
 DRAW
-P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 10 -50 50 -50 -50 N
 P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
@@ -257,9 +260,9 @@ $FPLIST
  D*DO?35*
 $ENDFPLIST
 DRAW
-P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 10 -50 50 -50 -50 N
 P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
@@ -341,7 +344,7 @@ F0 "Q" 250 75 50 H V L CNN
 F1 "Transistor_FET_IRF540N" 250 0 50 H V L CNN
 F2 "Package_TO_SOT_THT:TO-220-3_Vertical" 250 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
-ALIAS IRF3205 IRF540N IRF740 IRLB8721PBF IRLZ34N IRLZ44N
+ALIAS IRF3205 IRF540N IRF740 IRLB8721PBF IRLZ34N IRLZ44N VNP10N07 IPP060N06N
 $FPLIST
  TO?220*
 $ENDFPLIST
