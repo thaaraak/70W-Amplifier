@@ -1,4 +1,4 @@
-17159586767768067
+17174565595472266
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75971,6 +75971,27 @@ ESP32-15Pin
 30
 29
 Xenir
+ESP32-A1S
+
+
+0
+39
+39
+Xenir
+ESP32-A1Sa
+
+
+0
+38
+38
+Xenir
+ESP32-A1Sb
+
+
+0
+3
+3
+Xenir
 Electret
 
 
@@ -75984,6 +76005,13 @@ Ferrite-Tube-Splitter-SMD
 0
 5
 5
+Xenir
+Ferrite-Tube-Transformer-SMD
+
+
+0
+4
+4
 Xenir
 Heatsink_Mounting_25mm
 
@@ -76048,6 +76076,13 @@ Pad
 1
 1
 Xenir
+PinPad
+
+
+0
+2
+2
+Xenir
 Power Connector
 
 
@@ -76089,6 +76124,13 @@ SBL-1
 0
 8
 8
+Xenir
+SN76477
+
+
+0
+28
+28
 Xenir
 SO08
 
@@ -76146,6 +76188,13 @@ T50_Inductor
 2
 2
 Xenir
+T50_Transformer
+
+
+0
+4
+4
+Xenir
 T092
 
 
@@ -76167,12 +76216,19 @@ TO-220-Horizontal
 3
 3
 Xenir
-TO-220AB-Horizontal
+TO-220-Horizontal-RD-Mosfet
 
 
 0
 3
 3
+Xenir
+TO-247-Horizontal
+
+
+0
+3
+2
 Xenir
 Trimpot
 
@@ -76208,6 +76264,13 @@ TwoPads
 0
 2
 2
+Xenir
+VV105
+
+
+0
+4
+4
 Xenir
 pMod_I2S2
 Through hole straight pin header, 2x06, 2.54mm pitch, double rows

@@ -1,15 +1,14 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.1.12-unknown-nightly-202112011503*
-G04 #@! TF.CreationDate,2022-01-19T18:07:55-06:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.5)-3*
+G04 #@! TF.CreationDate,2022-10-30T09:30:50-04:00*
 G04 #@! TF.ProjectId,70W-Amplifier,3730572d-416d-4706-9c69-666965722e6b,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Paste,Bot*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.1.12-unknown-nightly-202112011503) date 2022-01-19 18:07:55*
+G04 Created by KiCad (PCBNEW (5.1.5)-3) date 2022-10-30 09:30:50*
 %MOMM*%
 %LPD*%
-G01*
 G04 APERTURE LIST*
 G04 APERTURE END LIST*
 M02*
